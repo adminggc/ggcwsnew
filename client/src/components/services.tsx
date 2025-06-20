@@ -13,25 +13,25 @@ export default function Services() {
       icon: Heart,
       image: medicalWellnessImage,
       title: "Medical Wellness",
-      description: "Every program and service are a personalized fusion of regenerative medicine, technology, nutrition, micronutrient therapy, lifestyle management - designed to unlock each client's unique potential. This is for those who seek not just to live healthily, but to live meaningfully, powerfully, vibrantly from within."
+      description: "Personalized programs combining regenerative medicine, technology, nutrition, micronutrient therapy, and lifestyle management to unlock unique potential—not just healthy living, but living meaningfully, powerfully, vibrantly."
     },
     {
       icon: Car,
       image: premiumDrivingImage,
       title: "Solution for Premium Drivings",
-      description: "More than just buying, leasing, maintaining, repairing, restoring, and upgrading premium pre-owned vehicles (such as Porsche, Volvo, BMW, etc.), we represent a statement of taste and individuality. Each car is a lifestyle declaration, each journey is a curated experience."
-    },
-    {
-      icon: Brain,
-      image: aiSmartSystemsImage,
-      title: "AI & Smart Systems",
-      description: "By integrating AI, biometric technology, behavioral analytics, we build dynamic personal health and lifestyle profiles. This allows us to deliver truly tailor - made, real - time wellness solutions."
+      description: "More than buying/leasing/maintaining/restoring/upgrading premium pre‑owned vehicles (Porsche, Volvo, BMW, etc.). They represent a statement of taste and individuality—a curated lifestyle and journey experience."
     },
     {
       icon: Hospital,
       image: selectiveHealthcareImage,
       title: "Selective Healthcare Services",
-      description: "A curated network of trusted domestic and international healthcare partners, offering streamlined, private and efficient care experiences tailored to discerning clientele."
+      description: "A curated network of trusted domestic and international healthcare partners offering streamlined, private, efficient care tailored to discerning clients."
+    },
+    {
+      icon: Brain,
+      image: aiSmartSystemsImage,
+      title: "AI & Smart Systems",
+      description: "Integration of AI, biometrics, behavioral analytics to build dynamic personal health and lifestyle profiles—delivering tailor‑made, real‑time wellness solutions."
     }
   ];
 
@@ -51,11 +51,21 @@ export default function Services() {
           {services.map((service, index) => {
             return (
               <Card key={index} className="group bg-white rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title}
-                  className="w-full h-auto object-contain"
-                />
+                <div className="relative">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-auto object-contain"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-95 p-6">
+                    <h3 className="text-xl font-bold text-burgundy mb-3">
+                      {service.title}
+                    </h3>
+                    <p className="text-charcoal text-sm leading-relaxed">
+                      {service.description}
+                    </p>
+                  </div>
+                </div>
               </Card>
             );
           })}
