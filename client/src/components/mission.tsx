@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import missionBackground from "@assets/mission_1750396646548.png";
+import missionBackground from "@assets/2287862901-2287862901_1750413625393.png";
 
 export default function Mission() {
   return (
