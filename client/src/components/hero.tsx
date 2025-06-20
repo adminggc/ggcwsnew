@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@assets/rectangle_2_1750394780351.png";
+import ggLogo from "@assets/unnamed_19_copy_1750417573912.png";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -24,6 +25,13 @@ export default function Hero() {
       />
       
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div className="mb-8">
+          <img 
+            src={ggLogo} 
+            alt="GG Corporation Logo" 
+            className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mx-auto mb-6"
+          />
+        </div>
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
           GG Corporation
           <span className="block text-warm-beige text-3xl sm:text-4xl lg:text-6xl mt-2">
