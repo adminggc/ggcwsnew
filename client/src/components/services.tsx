@@ -51,14 +51,18 @@ export default function Services() {
           {services.map((service, index) => {
             return (
               <Card key={index} className="group bg-white rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 overflow-hidden">
-                <div className="relative">
-                  <img 
-                    src={service.image} 
-                    alt={service.title}
-                    className="w-full h-auto object-contain"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-95 p-6">
-                    <h3 className="text-xl font-bold text-burgundy mb-3">
+                <div className="flex flex-col h-full">
+                  {/* Image section - 1/4 of the height */}
+                  <div className="h-48 overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  {/* Text section - 3/4 of the height */}
+                  <div className="flex-1 p-6 bg-white">
+                    <h3 className="text-xl font-bold text-burgundy mb-4">
                       {service.title}
                     </h3>
                     <p className="text-charcoal text-sm leading-relaxed">
