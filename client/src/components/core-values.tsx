@@ -1,37 +1,33 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Gem, Users, Lightbulb, Heart, Leaf, Handshake } from "lucide-react";
+import { User, TrendingUp, Building, Gem, Users, Target } from "lucide-react";
+import coreValuesBackground from "@assets/core_values_1750396646546.png";
 
 export default function CoreValues() {
   const values = [
     {
+      icon: User,
+      title: "Empowered Living",
+      description: "Clients own their health, technology, lifestyle, mobility, and quality of life."
+    },
+    {
+      icon: TrendingUp,
+      title: "High Performance",
+      description: "Solutions designed for sustainable life, work, and operations—not chasing trends."
+    },
+    {
+      icon: Building,
+      title: "Interdisciplinary Excellence",
+      description: "Integrating medicine, tech, lifestyle, finance—a modern living model for next‑generation leaders."
+    },
+    {
       icon: Gem,
-      title: "Excellence",
-      description: "We pursue the highest standards in everything we do, continuously improving our services and exceeding expectations."
+      title: "Simplicity – Sophistication – Distinction",
+      description: "Designs and services refine complexity with aesthetic and experiential elegance."
     },
     {
       icon: Users,
-      title: "Integrity",
-      description: "Honesty, transparency, and ethical practices form the foundation of all our relationships and business operations."
-    },
-    {
-      icon: Lightbulb,
-      title: "Innovation",
-      description: "We embrace cutting-edge technologies and creative solutions to address evolving challenges and opportunities."
-    },
-    {
-      icon: Heart,
-      title: "Compassion",
-      description: "We approach every interaction with empathy, understanding, and genuine care for the wellbeing of others."
-    },
-    {
-      icon: Leaf,
-      title: "Sustainability",
-      description: "We are committed to environmentally responsible practices and creating positive long-term impact."
-    },
-    {
-      icon: Handshake,
-      title: "Partnership",
-      description: "We believe in collaborative relationships that create mutual value and drive collective success."
+      title: "Deep Personalization",
+      description: "Every client's ecosystem is unique—honoring individuality through data-driven, transparent, custom solutions."
     }
   ];
 

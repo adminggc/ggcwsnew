@@ -97,6 +97,14 @@ This is a modern full-stack web application for GG Corporation Vietnam, showcasi
 ```
 Changelog:
 - June 20, 2025. Initial setup
+- June 20, 2025. Updated website with authentic GG Corporation content and imagery
+  - Hero section: Added authentic background image and exact company description
+  - Services: Updated to four authentic pillars with real service descriptions
+  - Vision: Integrated authentic Asia-focused vision statement
+  - Mission: Added five authentic mission points from company content
+  - Core Values: Updated to five authentic core values with precise descriptions
+  - About: Transformed to Premium Wellbeing focus with authentic content
+  - All sections now use client's actual images from attached_assets
 ```
 
 ## User Preferences

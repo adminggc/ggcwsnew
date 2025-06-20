@@ -1,35 +1,38 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Car, Hospital, Brain, Check } from "lucide-react";
+import medicalWellnessImg from "@assets/medical_wellness_1750396646547.png";
+import selectiveHealthcareImg from "@assets/selective_healthcare_serv_1750396646548.png";
+import aiSmartSystemsImg from "@assets/ai_smart_systems_1750396646545.png";
 
 export default function Services() {
   const services = [
     {
       icon: Heart,
       title: "Medical Wellness",
-      description: "Comprehensive healthcare services combining traditional medical expertise with modern wellness approaches for optimal health outcomes.",
-      features: ["Preventive Care Programs", "Wellness Consulting", "Health Optimization"],
-      backgroundImage: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      description: "Personalized programs combining regenerative medicine, technology, nutrition, micronutrient therapy, and lifestyle management to unlock unique potential—not just healthy living, but living meaningfully, powerfully, vibrantly.",
+      features: ["Regenerative Medicine", "Personalized Nutrition", "Lifestyle Management", "Micronutrient Therapy"],
+      backgroundImage: medicalWellnessImg
     },
     {
       icon: Car,
-      title: "Premium Automotive",
-      description: "Luxury automotive solutions delivering exceptional performance, comfort, and reliability for discerning clients.",
-      features: ["Luxury Vehicle Services", "Custom Solutions", "Premium Maintenance"],
+      title: "Solution for Premium Drivings",
+      description: "More than buying/leasing/maintaining/restoring/upgrading premium pre‑owned vehicles (Porsche, Volvo, BMW, etc.). They represent a statement of taste and individuality—a curated lifestyle and journey experience.",
+      features: ["Premium Pre-owned Vehicles", "Curated Lifestyle Experience", "Porsche, Volvo, BMW", "Taste & Individuality"],
       backgroundImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       icon: Hospital,
-      title: "Selective Healthcare",
-      description: "Specialized healthcare services tailored to individual needs, providing personalized medical care and treatment solutions.",
-      features: ["Personalized Treatment", "Specialist Consultations", "Advanced Diagnostics"],
-      backgroundImage: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      title: "Selective Healthcare Services",
+      description: "A curated network of trusted domestic and international healthcare partners offering streamlined, private, efficient care tailored to discerning clients.",
+      features: ["Curated Healthcare Network", "Private & Efficient Care", "International Partners", "Tailored for Discerning Clients"],
+      backgroundImage: selectiveHealthcareImg
     },
     {
       icon: Brain,
       title: "AI & Smart Systems",
-      description: "Cutting-edge artificial intelligence and smart system solutions that optimize operations and enhance decision-making capabilities.",
-      features: ["AI Implementation", "Smart Automation", "Data Analytics"],
-      backgroundImage: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      description: "Integration of AI, biometrics, behavioral analytics to build dynamic personal health and lifestyle profiles—delivering tailor‑made, real‑time wellness solutions.",
+      features: ["AI Integration", "Biometric Analysis", "Behavioral Analytics", "Real-time Wellness Solutions"],
+      backgroundImage: aiSmartSystemsImg
     }
   ];
 

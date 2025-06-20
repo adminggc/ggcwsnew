@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import missionBackground from "@assets/mission_1750396646548.png";
 
 export default function Mission() {
   return (
@@ -7,8 +8,8 @@ export default function Mission() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-              alt="Modern collaborative workspace representing GG Corporation's mission-driven approach" 
+              src={missionBackground}
+              alt="GG Corporation's mission-driven approach to premium wellbeing" 
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </div>
@@ -18,24 +19,20 @@ export default function Mission() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-charcoal leading-relaxed">
-                <strong className="text-burgundy">Empowering Excellence:</strong> We deliver comprehensive wellbeing solutions that enhance quality of life through innovative healthcare, premium automotive services, and intelligent technology integration.
+                <strong className="text-burgundy">Regenerative Journey:</strong> They accompany clients on a journey to a regenerative lifestyle—restoring energy, nurturing inner depth, optimizing performance.
               </p>
               <p className="text-lg text-charcoal leading-relaxed">
-                <strong className="text-burgundy">Sustainable Impact:</strong> Our commitment extends beyond immediate solutions to create lasting positive change in communities, fostering sustainable growth and environmental responsibility.
+                <strong className="text-burgundy">Deep Personalization:</strong> Provide wellness solutions grounded in regenerative medicine with deep personalization.
               </p>
               <p className="text-lg text-charcoal leading-relaxed">
-                <strong className="text-burgundy">Partnership Excellence:</strong> We build enduring relationships with clients, partners, and stakeholders, founded on trust, transparency, and mutual success.
+                <strong className="text-burgundy">Integrated Excellence:</strong> Integrate medicine, technology, and lifestyle for long‑term vitality.
               </p>
-            </div>
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="text-center p-4 bg-warm-beige rounded-xl">
-                <div className="text-2xl font-bold text-burgundy">24/7</div>
-                <div className="text-sm text-charcoal">Support Available</div>
-              </div>
-              <div className="text-center p-4 bg-warm-beige rounded-xl">
-                <div className="text-2xl font-bold text-burgundy">ISO</div>
-                <div className="text-sm text-charcoal">Certified Quality</div>
-              </div>
+              <p className="text-lg text-charcoal leading-relaxed">
+                <strong className="text-burgundy">Mindful Living:</strong> Create spaces where clients reconnect with purpose, live mindfully, and grow.
+              </p>
+              <p className="text-lg text-charcoal leading-relaxed">
+                <strong className="text-burgundy">Smart Living:</strong> Shift clients from "running faster" to "living smarter and more sustainably."
+              </p>
             </div>
           </div>
         </div>
