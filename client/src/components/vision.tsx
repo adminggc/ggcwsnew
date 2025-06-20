@@ -1,9 +1,9 @@
-import visionBackground from "@assets/vision_2_1750396646551.png";
+import visionBackground from "@assets/2287862901-2287862901_1750413625393.png";
 
 export default function Vision() {
   return (
     <section id="vision" className="relative py-20 min-h-screen flex items-center">
-      {/* Your authentic vision background */}
+      {/* Nordic cityscape vision background */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
