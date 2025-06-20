@@ -41,6 +41,13 @@ export default function Mission() {
               </p>
             </div>
           </div>
+          <div>
+            <img 
+              src={missionBackground}
+              alt="Nordic cityscape with golden tower overlooking the harbor" 
+              className="rounded-2xl shadow-2xl w-full h-auto"
+            />
+          </div>
         </div>
       </div>
     </section>
