@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User, TrendingUp, Building, Gem, Users, Target } from "lucide-react";
+import { User, TrendingUp, Building, Gem, Users, Lightbulb } from "lucide-react";
 import coreValuesBackground from "@assets/core_values_1750396646546.png";
 
 export default function CoreValues() {
@@ -28,6 +28,11 @@ export default function CoreValues() {
       icon: Users,
       title: "Deep Personalization",
       description: "Every client's ecosystem is unique—honoring individuality through data-driven, transparent, custom solutions."
+    },
+    {
+      icon: Lightbulb,
+      title: "Conscious Innovation",
+      description: "We embrace forward-thinking innovation that respects both humanity and the planet—harnessing cutting-edge technology and ideas responsibly to elevate well-being without compromising ethics or sustainability."
     }
   ];
 
