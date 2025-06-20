@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Car, Hospital, Brain, Check } from "lucide-react";
+
+// Import the exact images from your original HTML structure
 import medicalWellnessTitle from "@assets/medical_wellness_1750396646547.png";
 import medicalWellnessDesc from "@assets/vector_smart_object_3_1750396646549.png";
 import premiumDrivingTitle from "@assets/vector_smart_object_4_1750396646549.png";
@@ -17,7 +19,7 @@ export default function Services() {
       descImage: medicalWellnessDesc,
       title: "Medical Wellness",
       description: "Every program and service are a personalized fusion of regenerative medicine, technology, nutrition, micronutrient therapy, lifestyle management - designed to unlock each client's unique potential. This is for those who seek not just to live healthily, but to live meaningfully, powerfully, vibrantly from within.",
-      features: ["Regenerative Medicine", "Personalized Nutrition", "Lifestyle Management", "Micronutrient Therapy"]
+      features: ["Regenerative Medicine", "Technology Integration", "Nutrition & Micronutrient Therapy", "Lifestyle Management"]
     },
     {
       icon: Car,
@@ -28,20 +30,20 @@ export default function Services() {
       features: ["Premium Pre-owned Vehicles", "Porsche, Volvo, BMW", "Lifestyle Declaration", "Curated Experience"]
     },
     {
-      icon: Hospital,
-      titleImage: selectiveHealthcareTitle,
-      descImage: selectiveHealthcareDesc,
-      title: "Selective Healthcare Services",
-      description: "A curated network of trusted domestic and international healthcare partners, offering streamlined, private and efficient care experiences tailored to discerning clientele.",
-      features: ["Curated Healthcare Network", "Domestic & International", "Private & Efficient Care", "Discerning Clientele"]
-    },
-    {
       icon: Brain,
       titleImage: aiSmartSystemsTitle,
       descImage: aiSmartSystemsDesc,
       title: "AI & Smart Systems",
       description: "By integrating AI, biometric technology, behavioral analytics, we build dynamic personal health and lifestyle profiles. This allows us to deliver truly tailor - made, real - time wellness solutions.",
-      features: ["AI Integration", "Biometric Technology", "Behavioral Analytics", "Real-time Solutions"]
+      features: ["AI Integration", "Biometric Technology", "Behavioral Analytics", "Real-time Wellness Solutions"]
+    },
+    {
+      icon: Hospital,
+      titleImage: selectiveHealthcareTitle,
+      descImage: selectiveHealthcareDesc,
+      title: "Selective Healthcare Services",
+      description: "A curated network of trusted domestic and international healthcare partners, offering streamlined, private and efficient care experiences tailored to discerning clientele.",
+      features: ["Curated Healthcare Network", "Domestic & International Partners", "Private & Efficient Care", "Discerning Clientele"]
     }
   ];
 
