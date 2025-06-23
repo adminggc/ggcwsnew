@@ -13,4 +13,8 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
   },
+  // Explicitly tell Vite which TypeScript config to use
+  esbuild: {
+    tsconfig: './tsconfig.json'
+  }
 });
