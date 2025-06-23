@@ -7,11 +7,11 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
-      "@assets": path.resolve(__dirname, "src/assets"), // Updated to point to client/src/assets
+      "@assets": path.resolve(__dirname, "src/assets"),
     },
   },
   build: {
-    outDir: "dist",
+    outDir: "build",  // ← This line changed from "dist" to "build"
     emptyOutDir: true,
   },
 });
