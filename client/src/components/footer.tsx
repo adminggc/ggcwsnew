@@ -301,7 +301,7 @@ export default function Footer() {
                 <strong>2.9. Contact Information</strong>
                 <p>
                   Email: <a href="mailto:info@ggcvietnam.vn" className="underline text-blue-600">info@ggcvietnam.vn</a><br />
-                  Address: 9th Floor, 233 Dong Khoi, Ben Thanh District, Ho Chi Minh City, Vietnam
+                  Address: 9th Floor, 233 Dong Khoi, Sai Gon Ward, Ho Chi Minh City, Vietnam
                 </p>
               </div>
             </div>
