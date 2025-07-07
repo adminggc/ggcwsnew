@@ -64,7 +64,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-charcoal mb-2">Address</h4>
                   <p className="text-charcoal">
-                    9th Floor, 233 Dong Khoi, Ben Thanh District, Ho Chi Minh
+                    9th Floor, 233 Dong Khoi, Sai Gon Ward, Ho Chi Minh
                     City, Vietnam
                   </p>
                 </div>
